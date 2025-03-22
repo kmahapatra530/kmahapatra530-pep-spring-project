@@ -90,6 +90,4 @@ public class SocialMediaController {
     public ResponseEntity<List<Message>> getMessagesByUser(@PathVariable int account_id) {
         return ResponseEntity.ok(messageService.getMessagesByUser(account_id));
     }
-
-
 }
